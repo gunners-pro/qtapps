@@ -46,12 +46,10 @@ Window {
 
             Button {
                 id: button
-                width: 48
-                height: 48
                 Layout.preferredWidth: 24
                 Layout.preferredHeight: 24
                 display: AbstractButton.IconOnly
-                icon.source: "Resources/Icons/list.png"
+                icon.source: "../Resources/Icons/list.png"
                 icon.width: 40
                 icon.height: 40
                 onClicked: sidebarVisible = !sidebarVisible
